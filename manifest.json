@@ -1,7 +1,7 @@
 {
  "manifest_version": 2,
  "name": "Note That",
- "description": "Note That is a Chrome extension that replaces your new tab with a minimalistic editor that saves your quick notes.",
+ "description": "Note That is a Chrome extension that replaces your new tab with a minimalistic editor which you can use to save quick notes.",
  "version": "1",
  "author": "Kamal Nayan",
 "browser_action": {
