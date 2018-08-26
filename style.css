@@ -1,15 +1,13 @@
-:root {
-    --pagebg: #f4ecd2;
-    --textcolor: #0d1630;
-}
 body {
     margin: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--pagebg);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 300;
     line-height: 1.5;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .container {
     max-width: 48rem;
@@ -21,27 +19,11 @@ textarea {
     font-size: 20px;
     width: 100%;
     height: 100vh;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 4rem 2rem 2rem 2rem;
     border: none;
     outline: none;
     resize: none;
     caret-color: rgb(0,122,255);
     background-color: inherit;
-}
-@media screen and (min-width: 1024px) {
-    textarea {
-        font-size: 24px;
-    }
-}
-footer {
-    margin-top: 4rem;
-    padding: 4rem 0;
-}
-footer a {
-    text-transform: uppercase;
-    font-weight: 500;
-    text-decoration: none;
-    color: inherit;
-    font-size: 12px;
-    letter-spacing: 1px;
+    box-sizing: border-box;
 }
