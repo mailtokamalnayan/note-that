@@ -27,3 +27,19 @@ textarea {
     background-color: inherit;
     box-sizing: border-box;
 }
+
+.progress-wrap {
+    height: 8px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+    
+}
+
+.progress-bar {
+    background-color: blue;
+    position: absolute;
+    height: 100%;
+    transition-delay: 1s;
+    transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
