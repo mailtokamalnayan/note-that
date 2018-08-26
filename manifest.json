@@ -5,9 +5,15 @@
  "version": "1",
  "author": "Kamal Nayan",
 "browser_action": {
-   "default_icon": "tab-icon.png",
+   "default_icon": "img/tab-icon@8x.png",
    "default_title": "Note That"
  },
+ "icons": {
+  "16": "img/tab-icon.png",
+  "32": "img/tab-icon@2x.png",
+  "48": "img/tab-icon@3x.png",
+  "128": "img/tab-icon@8x.png"
+},
 "chrome_url_overrides" : {
   "newtab": "newtab.html"
 },
