@@ -1,6 +1,6 @@
 // Save notes in localStorage
 function saveNotes() {
-    let noteContent = document.getElementById("notes").value;
+    let noteContent = document.getElementById("notes").innerHTML;
     localStorage.setItem("note", noteContent);
 }
 
@@ -9,7 +9,7 @@ function checkNotes() {
     let noteContent = localStorage.getItem("note");
     if (noteContent) { 
         console.log("Note Exists");
-        document.getElementById("notes").value = noteContent;
+        document.getElementById("notes").innerHTML = noteContent;
     }
     else {
         document.getElementById("notes").placeholder = "Whenever you're ready...";
@@ -34,4 +34,7 @@ window.onload = function () {
     checkNotes();
     setInterval(saveNotes, 500);
     timeLeft();
+    var quill = new Quill('#notes', {
+        theme: 'bubble'
+      });
 }

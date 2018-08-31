@@ -28,6 +28,10 @@ textarea {
     box-sizing: border-box;
 }
 
+#notes {
+    margin-top: 2rem;
+}
+
 .progress-wrap {
     height: 12px;
     width: 100%;

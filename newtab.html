@@ -7,6 +7,8 @@
         <meta name="description" content="Note That is a Chrome extension that replaces your new tab with a minimalistic editor which you can use to save quick notes.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="./script.js"></script>
+        <link rel="stylesheet" href="./bubble.css">
+        <script src="./quill.js"></script>
         <link href="./style.css" rel="stylesheet">
     </head>
     <body>
@@ -23,7 +25,8 @@
           <div id="progressBar" class="progress-bar" style="width: 25%;"></div>
         </div>
       </div>
-      <textarea id="notes" autofocus="true"></textarea>
+      <!-- <textarea id="notes" autofocus="true"></textarea> -->
+      <div id="notes"></div>
       <footer>
         <a href="https://twitter.com/kns008" target="_blank" title="Tweet your feedback to me at @kns008">Feedback?</a>
       </footer>
